@@ -1,9 +1,16 @@
 import './App.css';
+import React from 'react';
 
+import { Header, Sidebar, Home, Posts, Users} from './components'
 function App() {
   return (
     <div>
-    <hi>Hello react dev</hi>     
+    <Header/>
+    <Sidebar/>
+    <Home/>
+    <Posts/>
+    <Users/>
+
     </div>
   );
 }
